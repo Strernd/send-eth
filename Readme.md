@@ -1,9 +1,9 @@
 # .env File
 
-INFURA=https://rinkeby.infura.io/v3/mykey
-MNEMONIC=inset 12 words here
-CHAIN_ID=4
-ETHGASSTATION_APIKEY=enter api key here
+INFURA=https://rinkeby.infura.io/v3/mykey.  
+MNEMONIC=inset 12 words here.  
+CHAIN_ID=4.  
+ETHGASSTATION_APIKEY=enter api key here.  
 
 ## Commands
 
