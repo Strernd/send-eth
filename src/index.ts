@@ -11,7 +11,7 @@ import { signAndSendTransaction } from "./signAndSendTransaction";
         toAddress: "0xcBff0f11f63773F69968782d9b91e97CfcB90b1f",
         amount: "50000000000000000",
       },
-      240
+      260
     );
     const signature = await sign(tosign);
     const hash = await signAndSendTransaction(partialTx, signature);

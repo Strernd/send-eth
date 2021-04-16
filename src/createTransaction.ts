@@ -21,7 +21,7 @@ export async function createTransaction(
   }
   const tx: utils.UnsignedTransaction = {
     to: transactionData.toAddress,
-    nonce: Number(txCount) + 1,
+    nonce: Number(txCount),
     gasLimit: gasLimit.toHexString(),
     gasPrice: gasPrice.toHexString(),
     value: value.toHexString(),
